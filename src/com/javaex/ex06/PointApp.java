@@ -13,9 +13,10 @@ public class PointApp {
 		System.out.println(p2 == p3);
 		System.out.println(p3 == p4);
 		System.out.println(p4 == p1);		
-		System.out.println(p1.equals(p2));
+		System.out.println(p1.equals(p2)); 		
 		System.out.println(p4.equals(p1));
 	}
 }
+//equals() 메소드가 없는데 실행되는 이유 : object클래스는 최상위 클래스로 보이지 않지만 모든 클래스에 존재함!
 // == 연산자는 참조변수(주소값)이 동일한 경우 - 동일성
 //equals 는 괄호 안의 객체 내부의 값 비교 (재정의해서 사용) - 동등성
