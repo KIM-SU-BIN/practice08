@@ -2,15 +2,18 @@ package com.javaex.ex03;
 
 public class Point {
 
+	// 필드
 	private int x;
 	private int y;
+
+	// 생성자
+
+	// gs
 
 	public Point(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
-	
-	// toString()을 작성 하세요
 
 	public int getX() {
 		return x;
@@ -28,8 +31,9 @@ public class Point {
 		this.y = y;
 	}
 
+	// toString()을 작성 하세요
 	@Override
 	public String toString() {
 		return "Point [x=" + x + ", y=" + y + "]";
 	}
-	}
+}
