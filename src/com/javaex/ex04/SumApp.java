@@ -12,7 +12,7 @@ public class SumApp {
 		System.out.println("숫자를 공백으로 구분해서 입력하세요");
 		String numLine = sc.nextLine();
 
-		// 코드를 작성하세요
+		// 코드를 작성 하세요
 		String[] numArray = numLine.split(" ");
 
 		for (int i = 0; i < numArray.length; i++) {
